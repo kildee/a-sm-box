@@ -78,24 +78,16 @@
 
 ### 手机端
 
-手机上也能用：首页进各个功能，随时查看 K 线、题材热榜和扫描结果，还可以用一句话向助手提问。
+手机浏览器里也能用，随时查看 K 线、题材热榜和扫描结果。
 
 <table>
   <tr>
-    <th width="50%">首页</th>
     <th width="50%">个股 K 线</th>
+    <th width="50%">题材热榜</th>
   </tr>
   <tr>
-    <td valign="top"><a href="docs/images/full-mobile-home.png"><img src="docs/images/full-mobile-home.png" alt="手机端：首页"></a></td>
     <td valign="top"><a href="docs/images/full-mobile-kline.png"><img src="docs/images/full-mobile-kline.png" alt="手机端：个股 K 线"></a></td>
-  </tr>
-  <tr>
-    <th>题材热榜</th>
-    <th>助手</th>
-  </tr>
-  <tr>
     <td valign="top"><a href="docs/images/full-mobile-hot.png"><img src="docs/images/full-mobile-hot.png" alt="手机端：题材热榜"></a></td>
-    <td valign="top"><a href="docs/images/full-mobile-assistant.png"><img src="docs/images/full-mobile-assistant.png" alt="手机端：助手"></a></td>
   </tr>
 </table>
 
