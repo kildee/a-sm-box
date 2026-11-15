@@ -1,0 +1,10 @@
+target/
+data/
+*.log
+
+*.iml
+.idea/
+.vscode/
+.DS_Store
+build/
+dist/

@@ -1,0 +1,33 @@
+server:
+  port: 8080
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/plain,text/css,application/javascript
+    min-response-size: 1024
+
+spring:
+  datasource:
+    url: jdbc:h2:file:./data/smbox;AUTO_SERVER=TRUE;MODE=MySQL;DATABASE_TO_UPPER=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema.sql
+
+smbox:
+  # 是否启用定时任务
+  schedule-enabled: true
+  http:
+    # 行情接口超时（秒）
+    connect-timeout: 10
+    read-timeout: 20
+    # 可选 HTTP 代理，留空为直连
+    proxy-host: ${SMBOX_PROXY_HOST:}
+    proxy-port: ${SMBOX_PROXY_PORT:0}
+
+logging:
+  level:
+    root: INFO
+    com.smbox: INFO
